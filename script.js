@@ -63,7 +63,7 @@ function createFallItem() {
     item.classList.add('fall-item');
     
     // Đặt nội dung hiển thị (Ví dụ: Emoji, bạn có thể thay bằng các emoji khác: 💖, 🎁, 🌟)
-    item.innerHTML = '🌹'; 
+    item.innerHTML = '❤️'; 
     
     // Vị trí ngẫu nhiên
     item.style.left = Math.random() * window.innerWidth + 'px';
