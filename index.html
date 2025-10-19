@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quà Tặng 20/10 Lớp 12A4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="petals-container"></div>
+    
+    <div class="main-screen">
+        <h1 class="main-callout">CHÚC MỪNG 20/10</h1>
+        <p class="sub-text">Dành tặng Cô và các công chúa  12A4</p>
+        <button id="open-card-btn" class="special-btn">
+            ❤️ Bấm vào đây để mở thiệp 20/10 ❤️
+        </button>
+        <div id="countdown" class="countdown-display"></div>
+    </div>
+
+    <div id="card-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeCard()">&times;</span>
+            <div class="card-inner">
+                <h2 class="card-title">Gửi Các Nàng Thơ 12A4</h2>
+                
+                <input type="text" id="name-input" placeholder="Nhập tên bạn vào đi">
+                <p class="greeting-message">
+                    Gửi tặng <span id="recipient-name" class="highlight-name">Người Phụ Nữ Tuyệt Vời</span>,
+                </p>
+                
+                <div class="message-body">
+                    <p>
+                        Nhân ngày 20/10, Tập thể 12A4 xin gửi những lời tri ân sâu sắc nhất. Cảm ơn Cô và các bạn vì đã mang đến sự ấm áp, tinh thần tích cực và niềm vui cho lớp.
+                    </p>
+                    <p>
+                       Chúc các bạn có một ngày 20/10 thật tuyệt vời, luôn xinh đẹp, tự tin, cười thật tươi và nhận được thật nhiều yêu thương! Dù năm nay là năm cuối cấp đầy cam go, mong các bạn vẫn luôn giữ vững tinh thần, cùng nhau vượt qua mọi thử thách. Chúc các bạn đạt được mọi mục tiêu, chinh phục thành công kỳ thi sắp tới! Cảm ơn vì đã là những người bạn tuyệt vời của chúng tớ!"
+                    </p>
+                </div>
+                
+                <p class="signature">Thân ái,<br>Toàn thể trai đẹp 12A4</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
